@@ -28,7 +28,7 @@ public class RelayChannel extends RelayAbstractConversation<ChannelEvent> implem
 
     // As set out in RFC2812
     private final static ImmutableList<Character> CHANNEL_PREFIXES = ImmutableList.of('#', '&',
-            '+', '!');
+            '+', '!', '%', '@', '~');
 
     private final RelayMainUser mUser;
 
